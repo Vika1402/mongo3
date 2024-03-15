@@ -9,6 +9,7 @@
   <h3>All Chats !</h3>
   <form method="get" action="/chats/new">
     <button>New Chat</button>
+    
   </form>
   <br>
 
@@ -18,10 +19,15 @@
       <p>From : <i><%= chat.from %></i> </p>
       <div class="msg">
         <p><%= chat.msg %></p>
+        <form method="get" action="/chats/<%= chat._id %>/edit">
+          <button>edit</button>
+        </form>
+       
       </div>
      
       <p>Reciverd by : <i> <%= chat.to %></i></p>
       <hr/>
+      
     </div>
     <br><br>
   
