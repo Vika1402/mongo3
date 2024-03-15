@@ -1,0 +1,18 @@
+h3{
+  color: brown;
+}
+.chat{
+ padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(205, 223, 217);
+  display: inline-block;
+}
+.msg{
+  border-radius: 20px;
+ padding: 5px 15px;
+  color:white;
+  background-color: rgb(74, 128, 175);
+}
+body{
+  margin-left: 20px;
+}
